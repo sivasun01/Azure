@@ -1,0 +1,36 @@
+{
+ "sku": {
+  "name": "A0",
+  "tier": "Free"
+ },
+ "identity": {
+  "principalId": "dc82fadd-d006-4460-a541-b645fc59396b",
+  "tenantId": "6a429f5d-da5c-4e04-b9ca-9756e66976e2",
+  "type": "SystemAssigned"
+ },
+ "properties": {
+  "displayName": "Custom Audit Windows machines on which the specified services are not installed and 'Running'",
+  "policyDefinitionId": "/subscriptions/cab23135-a220-4637-bdf3-0656f5588d8c/providers/Microsoft.Authorization/policyDefinitions/5d3eebcb-5a5c-45dc-94a1-a61225cb1ae6",
+  "scope": "/subscriptions/cab23135-a220-4637-bdf3-0656f5588d8c",
+  "notScopes": [],
+  "parameters": {
+   "ServiceName": {
+    "value": "QualysAgent;CSFalconService"
+   }
+  },
+  "description": "",
+  "metadata": {
+   "assignedBy": "System Administrator",
+   "parameterScopes": {},
+   "createdBy": "0381594a-028e-46a2-810d-3ff770d29006",
+   "createdOn": "2021-09-20T15:13:09.2483149Z",
+   "updatedBy": "0381594a-028e-46a2-810d-3ff770d29006",
+   "updatedOn": "2021-09-21T14:53:55.5880332Z"
+  },
+  "enforcementMode": "Default"
+ },
+ "id": "/subscriptions/cab23135-a220-4637-bdf3-0656f5588d8c/providers/Microsoft.Authorization/policyAssignments/d13c598ebbc045929e820a3a",
+ "type": "Microsoft.Authorization/policyAssignments",
+ "name": "d13c598ebbc045929e820a3a",
+ "location": "eastus"
+}
